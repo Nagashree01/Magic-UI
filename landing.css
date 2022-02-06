@@ -1,0 +1,152 @@
+@import url('https:/fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #3B82F6;
+    --secondary-color: #FFF6EA;
+    --gray: #9a9a9a;
+    --black-color: #282828;
+    --white-color: #ffffff;
+    --lynx-white: #f7f7f7;
+    --violet-color: #5348c7;
+    --lynx-gray: #c5c5c5;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.navigation .navigation-title {
+    font-size: 2rem;
+}
+
+.navigation .link {
+    color: var(--secondary-color);
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5rem;
+    gap: 10px;
+}
+
+.content-btn {
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0rem;
+
+}
+
+.content-title {
+    font-size: 3rem;
+}
+
+.content-info {
+    font-size: large;
+}
+
+.right-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 5rem;
+    gap: 10px;
+}
+
+/* links */
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--white-color);
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--secondary-color);
+    padding: auto;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--primary-color);
+    position: fixed;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border-top-right-radius: 1rem;
+}
+
+.footer .social-links {
+    display: flex;
+    padding: 0.5rem;
+    color: var(--white-color);
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.social-link-list {
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .left-side-content,
+    .right-side-content {
+        flex: 1;
+        padding: 1rem 0;
+    }
+
+}
