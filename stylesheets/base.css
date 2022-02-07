@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -15,28 +16,36 @@
     --violet-color: #5348c7;
     --lynx-gray: #c5c5c5;
 
+
+    --margin:0.25rem;
+    --padding:0.25rem;
+
+    /* border */
+    --border-rad-circle:50%;
+    --border-radius:1rem;
+
+
+    --text-lg:2.5rem;
+    --text-m:1.8rem;
+    --text-sm:1.2rem;
+
+
+
+
+
+
+
 }
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 
-.link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-
+.flex{
+    display:flex;
 }
 
-.link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: var(--secondary-color);
-    padding: auto;
+.flex .column{
+    flex-direction: column;
 }
 
-.link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-}

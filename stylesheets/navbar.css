@@ -1,0 +1,35 @@
+@import url('/stylesheets/colors.css');
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.navigation .navigation-title {
+    font-size: 2rem;
+}
+
+.navigation .link {
+    color: var(--secondary-color);
+}
+
+.link-active {
+    font-weight: bold;
+}

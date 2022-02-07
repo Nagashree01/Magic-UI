@@ -21,50 +21,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* HEADER */
-.navigation {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 1rem;
-    box-sizing: border-box;
-}
-
-.navigation ul {
-    list-style: none;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-.navigation-list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.navigation .navigation-title {
-    font-size: 2rem;
-}
-
-.navigation .link {
-    color: var(--secondary-color);
-}
-
-.link-active {
-    font-weight: bold;
-}
 
 .content {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    height: 80vh;
+    gap: 3rem;
 }
 
 .left-side-content {
     display: flex;
     flex-direction: column;
-    padding: 10rem 5rem;
-    gap: 10px;
+    padding: 0rem 3rem;
+    gap: 1rem;
 }
 
 .content-btn {
@@ -75,7 +45,7 @@ body {
 }
 
 .content-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .content-info {
@@ -86,8 +56,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10rem 5rem;
-    gap: 10px;
+    padding: 0rem 8rem;
+    gap: 1rem;
 }
 
 /* links */
