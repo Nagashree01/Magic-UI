@@ -1,0 +1,20 @@
+@import url('/stylesheets/base.css');
+.avatar{
+    border-radius: var(--border-radius-circle);
+    padding: 10px;
+}
+
+.avatar-small{
+    width:3.5rem;
+    height: 3.5rem;
+}
+
+.avatar-medium{
+    width: 6rem;
+    height:6rem;
+}
+
+.avatar-large{
+    width:9rem;
+    height:9rem;
+}
