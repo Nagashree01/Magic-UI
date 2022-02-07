@@ -66,13 +66,6 @@
     padding-top: 10px;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width:768px){
     .sidenav{
         /* display: none; */
@@ -82,8 +75,4 @@
         font-size: 40%;
     }
 
-
-
-
-    
 }
