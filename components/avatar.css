@@ -1,7 +1,7 @@
 @import url('/stylesheets/base.css');
 .avatar{
     border-radius: var(--border-radius-circle);
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .avatar-small{
