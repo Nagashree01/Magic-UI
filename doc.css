@@ -1,11 +1,9 @@
 @import url('/stylesheets/base.css');
 
-
 .container{
     display: flex;
     height:100%;
 }
-
 
 .sidenav{
     display: flex;
@@ -13,7 +11,6 @@
     height: 100%;
     width: 18%;
     position: fixed;
-    
 }
 
 .sidenav a {
@@ -35,7 +32,6 @@
     padding-left:20%;
     padding-top: 2rem;
     padding-right: 2rem;
-    
 }
 
 .component-name{
@@ -73,10 +69,6 @@
     font-size:var(--text-m);
     padding: 0.5rem;
 }
-
-/* .component-view{
-    width
-} */
 
 .code-snippet{
     width: 75%;
