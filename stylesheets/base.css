@@ -16,7 +16,6 @@
     --violet-color: #5348c7;
     --lynx-gray: #c5c5c5;
 
-
     --margin:0.25rem;
     --padding:0.25rem;
 
@@ -24,10 +23,17 @@
     --border-radius-circle:50%;
     --border-radius:1rem;
 
-
     --text-lg:2.5rem;
     --text-m:1.8rem;
     --text-sm:1.2rem;
+
+    /* alert colors */
+    --success-color:#73d13d;
+    --warning-color:#ffc53d;
+    --danger-color:#ff7875;
+    --primary-alert-color:#69c0ff;
+    --secondary-alert-color:#eaeaec;
+
 }
 body {
     font-family: 'Montserrat', sans-serif;
