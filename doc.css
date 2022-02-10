@@ -43,6 +43,7 @@
     padding: 1rem 0;
 }
 .component-info{
+    padding: 0.5rem;
     font-size: var(--text-sm);
 }
 
@@ -74,6 +75,11 @@
     padding: 0.5rem;
 }
 
+.image-component-view{
+    width: 40%;
+    height: auto;
+    
+}
 /* .component-view{
     width
 } */

@@ -1,0 +1,40 @@
+@import url('/stylesheets/base.css');
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: steach;
+}
+
+.input-view {
+    display: flex;
+    gap: 2rem;
+}
+
+.input-area,
+.text-area {
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    outline: 1px solid var(--gray);
+    border-style: hidden;
+    width: fit-content;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-area:focus,
+.text-area:focus {
+    outline: 3px solid var(--violet-color)
+}
+
+.validation-success:focus {
+    outline: 3px solid var(--success-color);
+}
+
+.validation-error:focus {
+    outline: 3px solid var(--danger-color);
+}
