@@ -1,0 +1,9 @@
+@import url('/stylesheets/base.css');
+
+.select {
+    color: gold;
+}
+
+.ratings-star-container {
+    padding: 1rem;
+}
