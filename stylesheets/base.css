@@ -34,6 +34,8 @@
     --danger-color:#ff7875;
     --primary-alert-color:#69c0ff;
     --secondary-alert-color:#eaeaec;
+    /* rating color */
+    --gold-color:gold;
 
     /* snack-bar-colors */
     --snackbar-violet-color:#b880fc;

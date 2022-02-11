@@ -1,7 +1,7 @@
 @import url('/stylesheets/base.css');
 
 .select {
-    color: gold;
+    color: var(--gold-color);
 }
 
 .ratings-star-container {
