@@ -15,6 +15,7 @@
     --lynx-white: #f7f7f7;
     --violet-color: #5348c7;
     --lynx-gray: #c5c5c5;
+    --pure-white:#fff;
 
     --margin:0.25rem;
     --padding:0.25rem;
@@ -33,6 +34,9 @@
     --danger-color:#ff7875;
     --primary-alert-color:#69c0ff;
     --secondary-alert-color:#eaeaec;
+
+    /* snack-bar-colors */
+    --snackbar-violet-color:#b880fc;
 
 }
 body {

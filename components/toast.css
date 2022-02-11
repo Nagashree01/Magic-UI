@@ -1,1 +1,28 @@
 @import url('/stylesheets/base.css');
+
+.snackbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: var(--black-color);
+    width: fit-content;
+    gap:2rem;
+    color: var(--pure-white);
+    border-radius: 0.3rem;
+}
+
+.snackbar-buttons{
+    display: flex;
+    gap:1rem;
+    justify-content: flex-end;
+}
+.retry-button,.close-button {
+    border: none;
+    background-color: var(--black-color);
+}
+.retry-button{
+    color: var(--snackbar-violet-color);
+}
+.close-button{
+    color:  var(--pure-white);
+}
