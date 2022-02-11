@@ -1,0 +1,10 @@
+@import url('/stylesheets/base.css');
+
+.img {
+    width: auto;
+    height: 100%;
+}
+
+.img-round {
+    border-radius: var(--border-radius-circle);
+}
