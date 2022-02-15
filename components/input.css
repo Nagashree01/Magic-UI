@@ -20,12 +20,9 @@
     border-radius: 0;
     outline: 1px solid var(--gray);
     border-style: hidden;
-    width: fit-content;
 }
 
-label {
-    font-weight: bold;
-}
+
 
 .input-area:focus,
 .text-area:focus {

@@ -20,7 +20,7 @@
 
 .btn-secondary {
     color: var(--primary-color);
-    background-color: var(--white-color);
+    background-color: var(--gray-gray);
     border-color: var(--primary-color);
 }
 
