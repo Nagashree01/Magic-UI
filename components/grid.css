@@ -5,15 +5,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
     width:20rem;
-    
-  }
+}
 
 .grid-three-item-view {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   width:20rem;
-  
 }
 
 .grid-item {
