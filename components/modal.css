@@ -1,1 +1,19 @@
 @import url('/stylesheets/base.css');
+
+.modal-wrapper {
+    border: 1px solid var(--black-color);
+    display: none;
+}
+
+.modal-heading {
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.modal-message {
+    font-size: 1rem;
+}
+
+.modal-btn {
+    justify-content: flex-end;
+}
