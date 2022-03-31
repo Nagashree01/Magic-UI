@@ -1,0 +1,43 @@
+@import url('/stylesheets/base.css');
+
+.heading-1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.heading-2 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+.heading-3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.heading-4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.heading-5 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.pg-lg{
+font-size: 1.5rem;
+}
+
+.pg-md{
+    font-size: 1rem;
+}
+.pg-sm{
+    font-size: 0.7rem;
+}
+.center-text{
+    text-align: center;
+}
+.gray-text{
+    color: var(--gray);
+}
