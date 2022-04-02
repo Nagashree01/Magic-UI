@@ -1,0 +1,43 @@
+@import url('/stylesheets/base.css');
+
+.heading-xl {
+    font-size: var(--xl-size);
+    line-height: 4rem;
+}
+
+.heading-l {
+    font-size: var(--l-size);
+    line-height: 1.5rem;
+}
+
+.heading-m {
+    font-size: var( --m-size);
+    line-height: 2rem;
+}
+
+.heading-sm {
+    font-size: var(--sm-size);
+    line-height: 1.5rem;
+}
+
+.heading-xsm {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.text-lg{
+font-size: 1.5rem;
+}
+
+.text-md{
+    font-size: 1rem;
+}
+.text-sm{
+    font-size: 0.7rem;
+}
+.center-text{
+    text-align: center;
+}
+.gray-text{
+    color: var(--gray);
+}

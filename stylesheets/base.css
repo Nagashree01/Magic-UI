@@ -40,6 +40,14 @@
     /* snack-bar-colors */
     --snackbar-violet-color:#b880fc;
 
+    /* font-size */
+    --xl-size:3rem;
+    --l-size:2rem;
+    --m-size:1.5rem;
+    --sm-size:1rem;
+    --xsm-size:0.5rem;
+    
+
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -49,7 +57,11 @@ body {
     display:flex;
 }
 
-.column{
+.flex-column{
     flex-direction: column;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
 }
 

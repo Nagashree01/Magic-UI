@@ -1,0 +1,15 @@
+@import url('/stylesheets/base.css');
+
+.modal-wrapper {
+    border: 1px solid var(--black-color);
+    display: none;
+}
+
+.modal-heading {
+    font-size: var(--m-size);
+    justify-content: center;
+}
+
+.modal-message {
+    font-size: var(--sm-size);
+}

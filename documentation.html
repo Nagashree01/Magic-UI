@@ -30,21 +30,21 @@
 
     <div class="container">
         <div class="document-container">
-            <div id="side-menu" class="sidenav">
+            <div id="side-menu" class="sidemenu flex flex-column">
                 <ul class=" list-of-components">
                     <li class="list-item"><a href="#avatar-comp">Avatar</a></li>
-                    <li class="list-item"><a href="#alert-comp">Alert</a></li>
-                    <li class="list-item"><a href="#badge-comp">Badge</a></li>
-                    <li class="list-item"><a href="#button-comp">Button</a></li>
-                    <li class="list-item"><a href="#card-comp">Card</a></li>
-                    <li class="list-item"><a href="#image-comp">Image</a></li>
-                    <li class="list-item"><a href="#input-comp">Input</a></li>
-                    <li class="list-item"><a href="#rating-comp">Rating</a></li>
-                    <li class="list-item"><a href="#toast-comp">Toast</a></li>
-                    <li class="list-item"><a href="#grid-comp">Grid</a></li>
-                    <li class="list-item"><a href="#typography-comp">Text Utilities</a></li>
-                    <li class="list-item"><a href="#modal-comp">Modal</a></li>
-                    <li class="list-item"><a href="#list-comp">Lists</a></li>
+                    <li class="list-item"><a  href="#alert-comp">Alert</a></li>
+                    <li class="list-item"><a  href="#badge-comp">Badge</a></li>
+                    <li class="list-item"><a  href="#button-comp">Button</a></li>
+                    <li class="list-item"><a  href="#card-comp">Card</a></li>
+                    <li class="list-item"><a  href="#image-comp">Image</a></li>
+                    <li class="list-item"><a  href="#input-comp">Input</a></li>
+                    <li class="list-item"><a  href="#rating-comp">Rating</a></li>
+                    <li class="list-item"><a  href="#toast-comp">Toast</a></li>
+                    <li class="list-item"><a  href="#grid-comp">Grid</a></li>
+                    <li class="list-item"><a  href="#typography-comp">Text Utilities</a></li>
+                    <li class="list-item"><a  href="#modal-comp">Modal</a></li>
+                    <li class="list-item"><a  href="#list-comp">Lists</a></li>
                 </ul>
             </div>
         </div>
@@ -83,7 +83,7 @@
                 </p>
 
                 <div class="component-container-view">
-                    <div class="alert-component-view">
+                    <div class="alert-component-view flex flex-column">
                         <div class="alert primary-alert">This is a primary alert</div>
                         <div class="alert info-alert"><i class="fas fa-info-circle alert-icon"></i>This is a info-alert
                         </div>
@@ -517,12 +517,72 @@
                     <iframe src="https://www.thiscodeworks.com/embed/62434501e73f180015b20561" style="width: 100%; height: 372px;" frameborder="0"></iframe>
                 </div>
             </div>
+            <!-- TEXT-UTILITES -->
+            <div class="text-utilites-container">
+                <h1 id="typography-comp" class="component-name">Text Utilites</h1>
+                <p class="component-info">Different customisable texts
+                </p>
+                <div class="component-container-view flex flex-column gap-sm">
+                    <h1 class="heading-xl">This is Heading 1</h1>
+                    <h2 class="heading-l">This is Heading 2</h2>
+                    <h3 class="heading-m">This is Heading 3</h3>
+                    <h4 class="heading-sm">This is Heading 4</h4>
+                    <h5 class="heading-xsm">This is Heading 5</h5>
+                </div>
+                <div class="code-snippet">
+                    <iframe src="https://www.thiscodeworks.com/embed/6245106aaa27060015d19b75" style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                </div>
+                <p class="component-info">large, medium and small texts</p>
+                <div class="component-container-view flex flex-column gap-sm">
+                    <p class="text-lg">This is large text for paragraph</p>
+                    <p class="text-md">This is medium text for paragraph</p>
+                    <p class="text-sm">This is small text for paragraph</p>
+                </div>
+                <div class="code-snippet">
+                    <iframe src="https://www.thiscodeworks.com/embed/624510a4aa27060015d19b76" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                </div>
+                <p class="component-info">Center text and Gray text</p>
+                <div class="component-container-view flex flex-column gap-sm">
+                    <p class="center-text">Center Text</p>
+                    <p class="gray-text">Gray text</p>
+                </div>
+                <div class="code-snippet">
+                    <iframe src="https://www.thiscodeworks.com/embed/624510e3aa27060015d19b77" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+                </div>
+            </div>
+            <!-- MODAL -->
+            <div class="modal-component-container">
+                <h1 id="modal-comp" class="component-name">Modal</h1>
+                <p class="component-info"></p>
+                <div class="component-container-view ">
+                    <div><button class="showModalBtn btn btn-primary">Show Modal</button></div>
+                    <div class="modal-wrapper modal flex flex-column">
+                        
+                            <div class="modal-heading flex">Log In</div>
+                            <div class="modal-message">You need to be logged in to continue. Please login.</div>
+                            <div class="flex modal-btn justify-content-flex-end">
+                                <button class=" btn btn-primary">Login</button>
+                            </div>
+
+                        
+
+                    </div>
+                </div>
+                
+
+                <div class="code-snippet">
+                    <iframe src="https://www.thiscodeworks.com/embed/6245ef28c261a20015b04efe" style="width: 100%; height: 229px;" frameborder="0"></iframe>
+                </div>
+                <div class="code-snippet">
+                    <iframe src="https://www.thiscodeworks.com/embed/6245eef9c261a20015b04efd" style="width: 100%; height: 229px;" frameborder="0"></iframe>
+                </div>
+            </div>
    
         </div>
         <!-- end of component-container -->
 
         
-
+        <script src="/components/modal.js"></script>
 </body>
 
 </html>
