@@ -1,0 +1,27 @@
+@import url('/stylesheets/base.css');
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.list-heading {
+    font-size: var(--l-size);
+    font-weight: 700;
+}
+
+.list-item {
+    font-size: var(--m-size);
+    padding-left: 0.5rem;
+}
+
+.list-stack-item {
+    font-size: var(--m-size);
+    padding: 1rem;
+    border: 1px solid var(--black-color);
+    border-radius: 5px;
+
+}
+
+.subject {
+    font-weight: 500;
+}
