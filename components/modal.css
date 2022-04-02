@@ -6,14 +6,10 @@
 }
 
 .modal-heading {
-    font-size: 1.5rem;
+    font-size: var(--m-size);
     justify-content: center;
 }
 
 .modal-message {
-    font-size: 1rem;
-}
-
-.modal-btn {
-    justify-content: flex-end;
+    font-size: var(--sm-size);
 }

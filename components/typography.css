@@ -1,38 +1,38 @@
 @import url('/stylesheets/base.css');
 
-.heading-1 {
-    font-size: 3rem;
+.heading-xl {
+    font-size: var(--xl-size);
     line-height: 4rem;
 }
 
-.heading-2 {
-    font-size: 2rem;
+.heading-l {
+    font-size: var(--l-size);
     line-height: 1.5rem;
 }
 
-.heading-3 {
-    font-size: 1.5rem;
+.heading-m {
+    font-size: var( --m-size);
     line-height: 2rem;
 }
 
-.heading-4 {
-    font-size: 1rem;
+.heading-sm {
+    font-size: var(--sm-size);
     line-height: 1.5rem;
 }
 
-.heading-5 {
+.heading-xsm {
     font-size: 0.5rem;
     line-height: 1rem;
 }
 
-.pg-lg{
+.text-lg{
 font-size: 1.5rem;
 }
 
-.pg-md{
+.text-md{
     font-size: 1rem;
 }
-.pg-sm{
+.text-sm{
     font-size: 0.7rem;
 }
 .center-text{

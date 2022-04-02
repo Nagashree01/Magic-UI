@@ -6,27 +6,22 @@
     height: 100%;
 }
 
-
-.sidenav {
-    display: flex;
-    flex-direction: column;
+.sidemenu {
     height: 100%;
     width: 18%;
     position: fixed;
-
 }
-
-.sidenav a {
+.sidemenu a {
     text-decoration: none;
     font-size: 2rem;
     color: var(--primary-color);
 }
 
-.sidenav a:hover {
+.sidemenu a:hover {
     color: var(--black-color);
 }
 
-.sidenav li {
+.sidemenu li {
     list-style: none;
     padding: 0.3rem;
 }
@@ -65,13 +60,7 @@
 .avatar-component-view {
     padding: 1rem 2rem;
     display: flex;
-    flex-direction: row;
     gap: 3rem;
-}
-
-.alert-component-view {
-    display: flex;
-    flex-direction: column;
 }
 
 .sub-heading {
